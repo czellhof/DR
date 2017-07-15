@@ -15,7 +15,7 @@ def execute(filters=None):
 	return columns, data, None, chart
 	
 def get_columns():
-	columns = [_("Sales Person") + ":data:110", _("Lead Count") + ":Int:70",
+	columns = [_("Sales Persons") + ":data:110", _("Lead Count") + ":Int:70",
 				_("Interaction") + ":Int:60",
 				_("Opp Count") + ":Int:80",
 				_("Quot Count") + ":Int:80", _("Order Count") + ":Int:80",
